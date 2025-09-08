@@ -1,0 +1,223 @@
+
+main{
+    margin:0;
+    background-color: rgba(124, 124, 124, 0.031);
+
+    height: 800px;
+}
+
+.conteudo-pricipal{
+
+    display: flex;
+    max-width: 100%;
+    padding-top: 6%;
+}
+.contener-video{
+
+    max-width: 67%;
+    padding-left: 4%;
+    padding-right: 2%;
+
+}
+.video img{
+    width: 900px;
+    height: 400px;
+}
+.descricao-video{
+    display: flex;
+    padding-top: 15px;
+    height: 60px;
+    position: relative;
+}
+
+
+
+
+
+
+
+.canal{
+    display: flex;
+    width: 400px;
+
+    margin: auto;
+
+}
+.canal img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50px;
+}
+.ordem {
+    padding-left: 10px;
+}
+.escrito{
+    color: rgba(0, 0, 0, 0.339);
+}
+.nome{
+    color: black;
+    font-weight: bold;
+}
+.inscreva-se{
+
+    width: 300px;
+    display: inline flex;
+}
+.inscreva-se button{
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    height: 40px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.menu-gesto{
+    display: flex;
+    margin: auto;
+
+    max-width: 100%;
+
+    justify-content: end;
+
+    
+    
+}
+.menu-gesto button{
+    margin-left: 20px;
+    max-width: 105px;
+    height: 25px;
+    padding-left: 26px;
+
+
+    background:rgba(128, 128, 128, 0.116);
+    border:solid rgba(128, 128, 128, 0.116);
+    border-radius: 15px;
+    cursor: pointer;
+
+
+
+
+    
+}
+
+.curti img{
+    width: 20px;
+    margin: auto;
+    right: 440px; 
+    bottom: 22px;
+    position:absolute;
+    
+
+
+
+}
+
+.nao-curti img{
+    width: 20px;
+    margin: auto;
+    right: 330px; 
+    bottom: 19px;
+    position:absolute;
+}
+.compatilha img{
+    width: 20px;
+    margin: auto;
+    right: 203px; 
+    bottom: 20px;
+    position:absolute;
+}
+.download img{
+    width: 20px;
+    margin: auto;
+    right: 77px; 
+    bottom: 20px;
+    position:absolute;
+}
+
+
+
+
+
+
+
+
+
+.informacao{
+    background-color: rgba(224, 224, 224, 0.202);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.opcao-video{
+
+    max-width: 33%;
+    display: block;
+    
+
+}
+.opcao-video a{
+    text-decoration: none;
+
+}
+.tipo-video{
+    display: flex;
+    margin-bottom: 40px;
+}
+.tipo-video img{
+    width: 190px;
+    height: 100px;
+}
+.informacao-video{
+    margin-left: 15px;
+
+}
+.informacao-video h2{
+    margin-bottom: 10px;
+    font-size: 19px;
+    color: black;
+
+}
+.informacao-video p{
+    font-size: 15px;
+    color: rgb(69, 69, 69);
+    opacity: 0.7;
+
+}
+.nome-canal{
+    margin-bottom: 7px;
+}
